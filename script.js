@@ -27,7 +27,7 @@ function calcularRacao() {
     }
 
    
-         //  kg para gramas
+         
     let pesoGramas = pesoKg * 1000;
 
         
