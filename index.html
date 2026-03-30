@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Algoritmos</title>
+</head>
+<body>
+    <header>
+        <h1>Algoritmos</h1>
+        
+        <nav>
+            <a href="#volume">volume</a>
+            <a href="#racao">Ração</a>
+            <a href=""></a>
+        </nav>
+    </header>
+
+        <section id="volume">
+            <h2> Cálculo de volume</h2>
+        
+            <input type="number" id="comprimento" placeholder="Digite o comprimento">
+            <input type="number" id="largura" placeholder="Digite a largura">
+            <input type="number" id="altura" placeholder="Digite a altura">
+        
+            <button onclick="calcularVolume()">Calcular</button>
+        
+            <p id="resultadoVolume"></p>
+        </section>
+
+        <section id="racao">
+            <h2> Cálculo de ração</h2>
+        
+            <input type="number" id="pesoRacao" placeholder="Peso do saco (kg)">
+            <input type="number" id="racaoGato" placeholder="Quantidade de gramas de ração por gato">
+        
+            <button onclick="calcularRacao()">Calcular</button>
+        
+            <p id="resultadoRacao"></p>
+        </section>
+        
+
+  
+
+
+        <script src="script.js"></script>  
+</body>
+</html>
